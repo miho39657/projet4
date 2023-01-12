@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #172957;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.nav-link :hover{
+    background-color: #FFFFFF;
+}
+
+.card {
+    width: 19rem;
+    background-color: #17c9ed;
+}
+
+.list-group-item {
+    background-color: #17c9ed;
+}
+
+.header-post {
+    background-color: #ff5927c7;
+}
+
+.body-post {
+    background-color: #ffffff;
+}

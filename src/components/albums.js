@@ -1,7 +1,11 @@
 import React from "react";
 
-const Albums = () => {
-  return <h1>ALBUMS</h1>;
-};
+function Albums() {
+  return (
+  <div>
+      <h1>welcome to the Albums page</h1>
+  </div>
+  )
+}
 
 export default Albums;

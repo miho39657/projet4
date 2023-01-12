@@ -4,6 +4,7 @@ import axios from 'axios';
 function Users() {
   const [users,setUsers]= useState([]);
   useEffect(() => {axios.get("/data/users.json").then(res => setUsers(res.data))},[]);
+  console.log(users);
 
   return (
     <>

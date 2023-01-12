@@ -1,27 +1,31 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
+import '../App.css';
 
 
 const Header = () => {
     return (
         <>
-        <nav className="navbar navbar-expand-lg bg-light">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                    <Link className="navbar-brand" to="/users">Users</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="navbar-brand" to="/albums">Albums</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="navbar-brand" to="/posts">Posts</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="navbar-brand" to="/todos">Todos</Link>
-                </li>
-            </ul>
-        </nav>
-
+            <nav className="navbar navbar-expand-lg">
+                <div className="container-fluid">
+                    <div className="collapse navbar-collapse">
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/users">Users</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/albums">Albums</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/posts">Posts</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/todos">Todos</Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         <Outlet />
         </>
     )

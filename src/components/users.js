@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import usersj from '../data/users.json';
 
 function Users() {
   const [users,setUsers]= useState([]);
-  useEffect(() => {axios.get(usersj).then(res => setUsers(res.data))},[]);
+  useEffect(() => {axios.get("/data/users.json").then(res => setUsers(res.data))},[]);
 
   return (
     <>

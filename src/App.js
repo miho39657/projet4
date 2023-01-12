@@ -4,7 +4,7 @@ import Users from "./components/users";
 import Posts from "./components/posts";
 import Todos from "./components/todos";
 import Albums from "./components/albums";
-import Header from "./componentss/NoPage";
+import Header from "./componentss/header";
 
 export default function App() {
   return (

@@ -1,5 +1,5 @@
-const todos = () => {
+const Todos = () => {
     return <h1>todos</h1>;
   };
   
-  export default todos;
+  export default Todos;

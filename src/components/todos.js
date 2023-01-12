@@ -1,8 +1,12 @@
 import React from "react";
 
-const Todos = () => {
-    return <h1>todos</h1>;
-};
+    function Todos() {
+        return (
+        <div>
+            <h1>welcome to the Todos page</h1>
+        </div>
+        )
+    }
 
 export default Todos;
 

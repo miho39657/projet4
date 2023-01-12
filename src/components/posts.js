@@ -3,7 +3,7 @@ import React from 'react'
 function Posts() {
   return (
     <div>
-      <h1>welcome to the posts page</h1>
+      <h1>welcome to the Posts page</h1>
     </div>
   )
 }

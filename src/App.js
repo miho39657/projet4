@@ -11,7 +11,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Header />}>
-          <Route index element={<Posts />} />
+          <Route index path="posts" element={<Posts />} />
           <Route path="users" element={<Users />} />
           <Route path="albums" element={<Albums />} />
           <Route path="todos" element={<Todos />} />

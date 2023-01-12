@@ -7,7 +7,7 @@ function Posts() {
 
   return (
     <>
-    {posts.map((elem,index) => <h1 key={index}> {elem.title} {elem.body}  </h1> )}
+    {posts.map((elem,index) => <div key={index}> <h1>{elem.title}</h1> <p>{elem.body}</p>  </div> )}
     </>
   )
 }

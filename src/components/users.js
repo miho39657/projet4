@@ -8,7 +8,7 @@ function Users() {
 
   return (
     <>
-    {users.map((elem,index) => <h1 key={index}> {elem.name} {elem.email}  </h1> )}
+    {users.map((elem,index) => <div key={index}> {elem.name} {elem.userName} {elem.email}  </div> )}
     </>
   )
 }

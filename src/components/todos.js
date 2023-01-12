@@ -7,7 +7,7 @@ function Todos() {
 
   return (
     <>
-    {todos.map((elem,index) => <h1 key={index}> {elem.title} {elem.completed}  </h1> )}
+    {todos.map((elem,index) => <div key={index}> <h1>{elem.title} {elem.completed? <span>done</span> : ""}</h1>  </div> )}
     </>
   )
 }
